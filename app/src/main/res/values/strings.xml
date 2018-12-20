@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SPICE-Android-Proto</string>
+
+    <string name="add_button">Add Item</string>
+    <string name="calculate_button">Calculate</string>
+
+    <string name="how_to_use_menu">How to Use</string>
+    <string name="about_menu">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
