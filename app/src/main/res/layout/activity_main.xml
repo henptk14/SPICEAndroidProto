@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@color/colorPrimary"
+    android:orientation="vertical"
     >
 
     <include
         android:id="@+id/appbar"
         layout="@layout/appbar"/>
 
-</LinearLayout>
+    <FrameLayout
+        android:id="@+id/netlist_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/appbar"/>
+
+</RelativeLayout>
